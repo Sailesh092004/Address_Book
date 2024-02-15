@@ -24,7 +24,6 @@ private:
 int main() {
     AddressBook book;
 
-    // prompt the user to add contacts to the address book
     while (true) {
         cout << "Enter a name (or 'quit' to exit): ";
         string name;
@@ -45,7 +44,7 @@ int main() {
         book.addContact(name, phoneNumber, email);
     }
 
-    // prompt the user to retrieve contacts from the address book
+    
     while (true) {
         cout << "Enter a name to retrieve contact information (or 'quit' to exit): ";
         string name;
